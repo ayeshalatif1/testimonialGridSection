@@ -41,6 +41,9 @@ section {
   flex-direction: column;
   gap: 1em;
   border-radius: 5px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+
 
 }
 .left{
@@ -117,10 +120,8 @@ h3 {
 
 
 h2 {
-  position: relative;
   font-size: clamp(1rem, 3vw, 1.4rem);
   text-align: left;
-  z-index: 2;
   font-weight: 500;
 }
 
@@ -146,29 +147,13 @@ p {
   font-size: 14px;
 }
 
-.daniel .quote {
-  border: none;
-}
 
-.quote {
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  border: none;
-  z-index: 1;
-  border-radius: 0%;
-}
 
 @media(min-width:1024px) {
   main {
     padding: 7em;
     display: grid;
     grid-template-columns: 80% 20%;
-  }
-
-  .quote {
-    top: 20%;
-    left: 40%;
   }
 
   .left {
@@ -199,14 +184,3 @@ p {
   }
 }
 
-@media(min-width:375px) and (max-width:750px) {
-  h3 {
-    position: relative;
-    z-index: 2;
-  }
-
-  .quote {
-    top: 4%;
-    left: 60%;
-  }
-}

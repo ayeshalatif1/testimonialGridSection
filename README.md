@@ -1,16 +1,49 @@
-# React + Vite
+# Frontend Mentor - Testimonials grid section solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the ESLint configuration
+### The challenge
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This challenge focused on recreating a multi-card testimonial layout using modern CSS techniques. It required building a responsive design that adapts across screen sizes while accurately matching the structure and alignment of the original reference. The main challenge was arranging different card sizes and positions using CSS Grid, ensuring consistent spacing, and keeping the layout clean and visually balanced.
+
+### Screenshot
+
+![](./testimonial.PNG)
+
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/ayeshalatif1/testimonialGridSection)
+- Live Site URL: [Add live site URL here](https://ayeshalatif1.github.io/testimnialGridSection/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+
+### What I learned
+
+During this project, I learned how to build responsive layouts using CSS Grid, including placing elements precisely with properties like grid column/row start/end. Additionally, I improved my use of CSS variables, typography, and color styling to match a given UI design more closely.
+
+
+
+

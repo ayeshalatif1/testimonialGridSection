@@ -5,7 +5,6 @@ import Jonathan from './assets/image-Jonathan.jpg'
 import Jeanette from './assets/image-Jeanette.jpg'
 import Patrick from './assets/image-Patrick.jpg'
 import Kira from './assets/image-Kira.jpg'
-import quote from './assets/bg-pattern-quotation.svg'
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
             <div>
             </div>
             <div className='name'>
-              <img className="quote" src={quote} alt="" />
               <h3> Daniel Clifford</h3>
               <p> Verified Graduate</p>
             </div>
